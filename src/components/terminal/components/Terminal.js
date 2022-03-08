@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { CONTENTS } from "../utils/commandHelper";
+import { CONTENTS } from "../../../utils/commandHelper";
 import Command from "./Command";
 import styles from "./Terminal.module.css";
 

@@ -10,6 +10,7 @@ module.exports = {
         'mxim' : '#00CA4E',
         'minm' : '#FFBD44',
         'clcs' : '#FF605C',
+        'topba': '#1C1C1EFF',
       },
       fontFamily: {
         Fira: ['Fira Code', 'sans-serif'],
