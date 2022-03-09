@@ -21,7 +21,7 @@ export default function Spotifu() {
             <div className=' bg-minm mr-2 rounded-full w-4 h-4'></div>
             <div className=' bg-clcs rounded-full w-4 h-4'></div>
           </div>
-          <iframe src="https://open.spotify.com/embed/track/0ADaoxu1RCFi5RL693cHXR?utm_source=generator"  frameborder="0" allowtransparency="true" allow="encrypted-media" className='w-[34.5rem] h-[41rem] rounded-b-lg'></iframe>
+          <iframe src="https://open.spotify.com/embed/track/0ADaoxu1RCFi5RL693cHXR?utm_source=generator"  frameBorder="0" allowtransparency="true" allow="encrypted-media" className='w-[34.5rem] h-[41rem] rounded-b-lg'></iframe>
         </motion.main>
     );
   }
