@@ -43,7 +43,7 @@ export default function Home() {
         <img src="/images/logo/af.png" className='  h-14 hover:h-20 pt-2 duration-500 pb-2'/>
       </button>
       <button onClick={()=>setTerm(false)&setPhoto(true)&setSpotify(false)&setResume(false)}>
-        <img src="/images/logo/pho.JPG" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+        <img src="/images/logo/pho.jpg" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
       </button>
       <button onClick={()=>setTerm(false)&setPhoto(false)&setSpotify(true)&setResume(false)}>
         <img src="/images/logo/spotify.png" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
