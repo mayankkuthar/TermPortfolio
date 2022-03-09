@@ -2,11 +2,15 @@ import Head from 'next/head';
 import Photu from '../components/photo/Photu'; 
 import Terms from '../components/terminal/Terms';
 import { useState } from 'react';
+import Spotifu from '../components/spotify/Spotifu';
+import Resume from '../components/resume/Resume';
 
 
 export default function Home() {
   const [term,setTerm]=useState(true)
   const [photo,setPhoto]=useState(false)
+  const [spotify,setSpotify]=useState(false)
+  const [resume,setResume]=useState(false)
   return (
   <div className=" h-screen flex flex-col items-center justify-center w-full bg-background2 bg-cover">
     <Head>
@@ -15,21 +19,37 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <div className= ' transition-all duration-500'>
-    {  
-      term?<Terms/>:null
-    }
+      {  
+        term?<Terms/>:null
+      }
     </div>
     <div className= ' transition-all duration-500'>
-    {
-      photo?<Photu/>:null 
-    }
+      {
+        photo?<Photu/>:null 
+      }
+    </div>
+    <div className= ' transition-all duration-500'>
+      {
+        spotify?<Spotifu/>:null 
+      }
+    </div>
+    <div className= ' transition-all duration-500'>
+      {
+        resume?<Resume/>:null 
+      }
     </div>
     <div className='absolute shadow-2xl flex gap-4 justify-center bottom-0 w-[40%] bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg place-items-center rounded-t-2xl '>
-      <button onClick={()=>setTerm(true)&setPhoto(false)}>
-        <img src="/af.png" className='  h-14 hover:h-20 pt-2 duration-500 pb-2'/>
+      <button onClick={()=>setTerm(true)&setPhoto(false)&setSpotify(false)&setResume(false)}>
+        <img src="/images/logo/af.png" className='  h-14 hover:h-20 pt-2 duration-500 pb-2'/>
       </button>
-      <button onClick={()=>setTerm(false)&setPhoto(true)}>
-        <img src="/pho.JPG" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+      <button onClick={()=>setTerm(false)&setPhoto(true)&setSpotify(false)&setResume(false)}>
+        <img src="/images/logo/pho.JPG" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+      </button>
+      <button onClick={()=>setTerm(false)&setPhoto(false)&setSpotify(true)&setResume(false)}>
+        <img src="/images/logo/spotify.png" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+      </button>
+      <button onClick={()=>setTerm(false)&setPhoto(false)&setSpotify(false)&setResume(true)}>
+        <img src="/images/logo/pg.png" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
       </button>
     </div>
   </div>

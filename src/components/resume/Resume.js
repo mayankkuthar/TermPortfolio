@@ -1,4 +1,4 @@
-export default function Photu() {
+export default function Resume() {
   
     return (
      
@@ -8,8 +8,7 @@ export default function Photu() {
             <div className=' bg-minm mr-2 rounded-full w-4 h-4'></div>
             <div className=' bg-clcs rounded-full w-4 h-4'></div>
           </div>
-            <img src="/images/profile.JPG" className='h-full saturate-0 hover:saturate-100 duration-500 rounded-b-2xl shadow-2xl'/>
-          
+          <iframe src="https://drive.google.com/file/d/1Y-pB_vLB-UcdQ5xV2Y7lrFV58s7X9DtC/preview"  allow="autoplay" className=' shadow-2xl rounded-b-2xl xl:h-full 2xl:h-full w-[40rem]'></iframe>
         </main>
     );
   }

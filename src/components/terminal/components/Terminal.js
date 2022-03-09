@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { CONTENTS } from "../../../utils/commandHelper";
 import Command from "./Command";
-import styles from "./Terminal.module.css";
+
 
 export default function Terminal() {
   const [commands, setCommands] = useState([]);
@@ -37,7 +37,7 @@ export default function Terminal() {
   };
 
   return (
-    <div className={styles.terminal} ref={terminalRef}>
+    <div className='xl:max-h-[20rem] 2xl:max-h-[27rem] overflow-y-scroll terminal' ref={terminalRef}>
       {/* <Command command="help" output="Some very long text will go in here" /> */}
       {commands.map(({ command, output }, index) => (
         <Command command={command} output={output} key={index} />

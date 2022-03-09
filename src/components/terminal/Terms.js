@@ -4,7 +4,7 @@ export default function Terms() {
   
     return (
      
-        <main className=" max-h-[41rem] rounded-xl shadow-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg flex flex-col max-w-3xl font-bold">
+        <main className="max-h-[41rem] rounded-xl shadow-2xl bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg flex flex-col max-w-3xl font-bold">
         <div className=' pt-2 pb-2 pl-3 rounded-t-xl w-full bg-topba h-6 flex items-center'>
           <div className=' bg-mxim mr-2 rounded-full w-4 h-4'></div>
           <div className=' bg-minm mr-2 rounded-full w-4 h-4'></div>

@@ -16,8 +16,8 @@ module.exports = {
         Fira: ['Fira Code', 'sans-serif'],
       },
       backgroundImage: {
-        'background': "url('/973967.jpg')",
-        'background2': "url('/4787158.jpg')",
+        'background': "url('/images/973967.jpg')",
+        'background2': "url('/images/4787158.jpg')",
 
         'footer-texture': "url('/img/footer-texture.png')",
       },
