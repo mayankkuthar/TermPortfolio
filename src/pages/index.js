@@ -64,14 +64,14 @@ export default function Home() {
         resume?<Resume/>:null 
       }
     </motion.div>
-    <div className="fixed shadow-rose-200 shadow-xl place-items-center flex justify-between top-0 h-[1.5rem] w-full bg-rose-400 bg-opacity-60 backdrop-filter backdrop-blur">
+    <div className="fixed shadow-xl place-items-center flex justify-between top-0 h-[1.5rem] w-full bg-black bg-opacity-70 backdrop-filter backdrop-blur">
       <div className="flex h-full">  
-        <span className=" pl-4 pr-4 font-sans font-extrabold"> YJ </span>
-        <div className="h-full w-[1px] bg-black bg-opacity-10"> </div>
-        <span className=" pl-5 font-Fira font-light"> Yajush </span>
+        <span className=" pl-4 pr-4 font-sans font-extrabold text-rose-300"> YJ </span>
+        <div className="h-full w-[1px] bg-white bg-opacity-10"> </div>
+        <span className=" pl-5 font-Fira font-light text-rose-300"> Yajush </span>
       </div>
       <button onMouseDown={() => setStyle("/images/bg2.jpg","cover")}>
-        <img src= "/images/ref.png" className=" pr-5 h-[1rem]"/>
+        <img src= "/images/ref.png" className="invert pr-5 h-[1rem]"/>
       </button>
     </div>
     <motion.div   variants={taskbar}
