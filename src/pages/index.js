@@ -38,18 +38,18 @@ export default function Home() {
         resume?<Resume/>:null 
       }
     </div>
-    <div className='absolute shadow-2xl flex gap-4 justify-center bottom-0 w-[40%] bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg place-items-center rounded-t-2xl '>
+    <div className=' overflow-hidden absolute shadow-2xl h-[4rem] flex gap-4 justify-center bottom-0 w-[40%] bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg place-items-center rounded-t-2xl '>
       <button onClick={()=>setTerm(true)&setPhoto(false)&setSpotify(false)&setResume(false)}>
-        <img src="/images/logo/af.png" className='  h-14 hover:h-20 pt-2 duration-500 pb-2'/>
+        <img src="/images/logo/af.png" className='  h-14 hover:h-[4.5rem] pt-2 duration-500 pb-2'/>
       </button>
       <button onClick={()=>setTerm(false)&setPhoto(true)&setSpotify(false)&setResume(false)}>
-        <img src="/images/logo/pho.jpg" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+        <img src="/images/logo/pho.jpg" className='  h-[3.4rem] hover:h-[4.5rem] duration-500 pt-[0.6rem] pb-2'/>
       </button>
       <button onClick={()=>setTerm(false)&setPhoto(false)&setSpotify(true)&setResume(false)}>
-        <img src="/images/logo/spotify.png" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+        <img src="/images/logo/spotify.png" className='  h-[3.4rem] hover:h-[4.5rem] duration-500 pt-[0.6rem] pb-2'/>
       </button>
       <button onClick={()=>setTerm(false)&setPhoto(false)&setSpotify(false)&setResume(true)}>
-        <img src="/images/logo/pg.png" className='  h-[3.4rem] hover:h-20 duration-500 pt-[0.6rem] pb-2'/>
+        <img src="/images/logo/pg.png" className='  h-[3.4rem] hover:h-[4.5rem] duration-500 pt-[0.6rem] pb-2'/>
       </button>
     </div>
   </div>
