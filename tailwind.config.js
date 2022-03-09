@@ -10,13 +10,14 @@ module.exports = {
         'mxim' : '#00CA4E',
         'minm' : '#FFBD44',
         'clcs' : '#FF605C',
+        'topba': '#1C1C1EFF',
       },
       fontFamily: {
         Fira: ['Fira Code', 'sans-serif'],
       },
       backgroundImage: {
-        'background': "url('/973967.jpg')",
-        'background2': "url('/4787158.jpg')",
+        'background': "url('/images/973967.jpg')",
+        'background2': "url('/images/4787158.jpg')",
 
         'footer-texture': "url('/img/footer-texture.png')",
       },

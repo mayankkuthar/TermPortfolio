@@ -47,4 +47,16 @@ a {
   color: var(--secondary);
 }
 
+.terminal::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.terminal {
+  overflow: -moz-scrollbars-none;
+}
+
+.terminal {
+  -ms-overflow-style: none;
+}
+
 @tailwind utilities;
