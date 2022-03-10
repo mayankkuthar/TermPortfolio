@@ -11,10 +11,10 @@ const COMMANDS = [
     command: "skills",
     description: "My Tech Skills",
   },
-  {
+ /*  {
     command: "projects",
     description: "My Tech Projects",
-  },
+  }, */
   {
     command: "contact",
     description: "Contact Me",

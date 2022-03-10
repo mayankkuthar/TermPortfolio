@@ -14,10 +14,11 @@ module.exports = {
       },
       fontFamily: {
         Fira: ['Fira Code', 'sans-serif'],
+        Quicksand: ['Quicksand', 'sans-serif'],
       },
       backgroundImage: {
-        'background': "url('/images/973967.jpg')",
-        'background2': "url('/images/4787158.jpg')",
+        'background': "url('/images/bg2.jpg')",
+        'background2': "url('/images/bg1.jpg')",
 
         'footer-texture': "url('/img/footer-texture.png')",
       },
