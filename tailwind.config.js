@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         Fira: ['Fira Code', 'sans-serif'],
+        Quicksand: ['Quicksand', 'sans-serif'],
       },
       backgroundImage: {
         'background': "url('/images/bg2.jpg')",
