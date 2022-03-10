@@ -25,14 +25,14 @@ export default function Home() {
     show: { y: 0 }
   }
   const constraintsRef = useRef(null);
-  const url = "https://source.unsplash.com/1980x1080/?wallpaper";
-  const url2= "https://source.unsplash.com/1980x1080/?experimental"
+  const url1 = "https://source.unsplash.com/1980x1080/?wallpaper?sig=123"
+  const url2= "https://source.unsplash.com/1980x1080/?wallpaper?sig="+ new Date().getTime();
   
-  const [background, setBackground] = useState(url)
+  const [background, setBackground] = useState(url1)
 
   const setStyle = () => {
+    
     setBackground(url2);
-
   };
 
   const [term,setTerm]=useState(true)
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="h-full w-[1px] bg-white bg-opacity-10"> </div>
         <span className=" pl-5 font-Quicksand font-light text-white"> Yajush </span>
       </div>
-      <button onMouseDown={() => setStyle()} >
+      <button onClick={() =>  setStyle()} >
         <img src= "/images/ref.png" className="invert pr-5 h-[1rem]"/>
       </button>
     </div>
